@@ -96,7 +96,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header #logo h1 {
-  font-size: 36px;
+  font-size: 26px;
   margin: 0;
   padding: 6px 0;
   line-height: 1;
@@ -758,6 +758,12 @@ body.mobile-nav-active #mobile-nav-toggle {
   line-height: 24px;
 }
 
+#services .description-ctr {
+  text-align: center;
+  font-size: 14px;
+  line-height: 24px;
+}
+
 /* Call To Action Section
 --------------------------------*/
 #projects {
@@ -1074,13 +1080,17 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 table {
-    position: absolute;
+    position: relative;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
     border-collapse: collapse;
     width: 800px;
     height: 200px;
-    border: 1px solid #bdc3c7;
+    border: 0 solid #bdc3c7;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-right: auto;
     box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2), -1px -1px 8px rgba(0, 0, 0, 0.2);
 }
